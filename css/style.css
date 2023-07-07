@@ -90,3 +90,36 @@ body{
 .entity{
   color: #16D887;
 }
+
+/* MY PLAN PART START */
+#my_plan{
+  padding: 130px 230px;
+}
+.my_plan_container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  padding: 50px 0px;
+}
+.my_plan_title h2{
+  color: #151414;
+  font-size: 40px;
+  font-weight: 700;
+  text-align: center;
+
+}
+.my_plan_item h3{
+  color:  #151414;
+  font-size: 30px;
+  font-weight: 700;
+  padding-top: 20px;
+
+}
+.my_plan_item p{
+  color: #737272;
+  font-size: 25px;
+  font-weight: 500;
+  padding-top: 15px;
+
+}
