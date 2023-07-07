@@ -11,6 +11,7 @@ body{
   background: url('../images/banner/banner3.png') no-repeat center / cover;
   height: 100vh;
   position: relative;
+  padding: 0px 230px;
 }
 .banner_text{
   position: absolute;
@@ -52,4 +53,40 @@ body{
 }
 .btn{
   margin-top: 50px;
+}
+/* MY FAILURE PART START */
+.myFailure_container{
+  margin-top: 140px;
+  padding: 0px 230px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.myFailure_text{
+  padding: 0px 120px;
+}
+.myFailure_text h2{
+  color:  #151414;
+  font-size: 40px;
+  font-weight: 700;
+
+}
+.myFailure_text p{
+  color: #444343;
+  font-size: 16px;
+  font-weight: 400;
+  padding-top: 25px;
+  padding-bottom: 15px;
+
+}
+.myFailure_text li{
+  color:  #444343;
+  font-size: 16px;
+  font-weight: 400;
+  list-style: none;
+  padding-top: 8px;
+
+}
+.entity{
+  color: #16D887;
 }
