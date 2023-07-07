@@ -164,3 +164,71 @@ body{
   text-decoration: none;
   border: none;
 }
+
+/* FUTURE PART START */
+.future_container{
+  background-color: #151414;
+  padding: 130px 230px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.future_text h3{
+  color: #F8F8F8;
+  font-size: 45px;
+  font-weight: 700;
+  padding-bottom: 15px;
+}
+.future_text p{
+  max-width: 500px;
+  color: #FFF;
+  font-size: 16px;
+  font-weight: 400;
+  padding-bottom: 10px;
+}
+.future_text li{
+  color: #FFF;
+  font-size: 16px;
+  font-weight: 400;
+  list-style: none;
+  padding-top: 16px;
+  
+}
+.social_icon{
+  display: flex;
+  align-items: center;
+  padding-top: 30px;
+}
+.social_icon li{
+  list-style: none;
+  margin-right: 15px;
+}
+.future_subscribe h3{
+  color: #FFF;
+  font-size: 25px;
+  font-weight: 600;
+  padding-bottom: 50px;
+}
+.future_subscribe input{
+  width: 300px;
+  padding: 10px 0px;
+  border-radius: 8px;
+  border: 1px solid #FFF;
+  background-color: transparent;
+  color: #FFF;
+  font-size: 18px;
+  font-weight: 400;
+  padding-left: 20px;
+}
+.future_subscribe button{
+  margin-top: 15px;
+  padding: 20px 35px;
+  border-radius: 8px;
+  background: #005FAC;
+  border: none;
+  color: #FFF;
+  font-family: 'Inter', sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+}
